@@ -10,6 +10,7 @@ footer {
   border-width: 5px 0 0 0;
   /* top right bottom left */
   border-style: solid;
+  margin-top: 100px;
 }
 
 .bg-image {
@@ -88,6 +89,24 @@ footer {
   color: white;
 }
 
+.work-experience-block {
+  line-height: 1;
+}
+
 /*
 background-color: #1C3A78;
 color: #CCEFFE */
+
+@media (max-width: 576px) {
+  .stars {
+    font-size: 1.3rem;
+  }
+  .grid-item-left {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  .grid-title-text {
+    font-size: 1.5rem;
+    margin: auto;
+  }
+}
