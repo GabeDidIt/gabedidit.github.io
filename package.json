@@ -1,0 +1,22 @@
+{
+  "name": "gabedidit.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeDidIt/gabedidit.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabeDidIt/gabedidit.github.io/issues"
+  },
+  "homepage": "https://github.com/GabeDidIt/gabedidit.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}

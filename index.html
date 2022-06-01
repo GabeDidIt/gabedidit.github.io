@@ -1,57 +1,343 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Gabe's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/profile.png" alt="Gabe's profile picture"></td>
-                <td>
-                    <h1>Gabriel Grigg</h1>
-                    <p><em><strong><a href="https://github.com/GabeDidIt">Game developer and programmer.</a></strong></em></p>
-                    <p>I am an Android and Windows game developer using Unity as well as a web developer and designer. I am largely self taught, but have a formal education in Java.</p>
-                </td>
-            </tr>
-        </table>
 
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>Currently a senior at Westwood High School</li>
-                <ul>
-                    <li>Several AP classes covering abstract object oriented programming through Java</li>
-                </ul>
-            <li>Self taught in C#, HTML, CSS, Javascript, etc.</li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabe's Resume</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- hyperlink to top -->
+  <a name="top"></a>
+
+  <!-- background cirguit board image div -->
+  <img src="images/Analog-Circuit-Design-1000x675.jpg" alt="circuit-design-background" class="bg-image">
+
+
+  <!-- navbar code -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Certifications</a>
+          </li>
         </ul>
-        <hr>
-        <h3>Skills</h3>
 
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                        <tr><td>Java Development</td>         <td>⭐⭐⭐⭐⭐</td></tr>
-                        <tr><td>Javascript Programming</td>   <td>⭐⭐⭐⭐</td></tr>
-                        <tr><td>C# Programming</td>           <td>⭐⭐⭐⭐</td></tr>
-                        <tr><td>Photoshop</td>                <td>⭐⭐⭐⭐</td></tr>
-                        <tr><td>Graphic Design</td>           <td>⭐⭐⭐</td></tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr><td>Computer Game Development</td><td>⭐⭐⭐</td></tr>
-                        <tr><td>Hardware Troubleshooting</td> <td>⭐⭐⭐</td></tr>
-                        <tr><td>Android Development</td>      <td>⭐⭐⭐</td></tr>
-                        <tr><td>Python Programming</td>       <td>⭐⭐</td></tr>
-                        <tr><td>Circuitry</td>                <td>⭐</td></tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar code -->
 
-        <hr>
-            <a href="hobbies.html">My Hobbies</a> ● <a href="contact.html">Contact Me</a>
-    </body>
+  <div class="intro-card position-absolute top-50 start-50 translate-middle" id="home">
+    <table>
+      <tr>
+        <td><img class="face" src="images/face.png" alt="my-beautiful-face"></td>
+        <td>
+          <h1 class="display-4"><u>Gabe Gri</u>gg</h1>
+          <p>Hobbiest developer and tech enthusiast</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="skills" id="skills">
+    <h1 class="title display-4">SKILLS</h1>
+
+    <!-- technical skills grid -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-title-text">Skill</p>
+        </div>
+        <div class="col-sm">
+          <p class="grid-title-text">Level</p>
+          <div class="star-key">
+            &starf;&star;&star;&star;&star; - Novice/Learning <br />
+            &starf;&starf;&starf;&star;&star; - Intermediate<br />
+            &starf;&starf;&starf;&starf;&starf; - Experienced
+          </div>
+        </div>
+        <div class="col-sm">
+          <p class="grid-title-text">Years Experience</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left"><b>Programming Languages:</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Javascript</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">2</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">C#</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">3</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Java</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">3</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">HTML/CSS</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">2</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left"><b>Platforms/Architectures:</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">.NET</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">3</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Express</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">2</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Android</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &star; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">1</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left"><b>Game Engines:</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Unity</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">4</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Godot</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &star; &star; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">1</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left"><b>Miscellaneous:</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Linux Operating Systems</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &starf;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">3</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Computer Hardware</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">2</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Operations Security</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &star;</h2>
+        </div>
+        <div class="col-sm">
+          <p class="grid-item">3</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left"><b>Personal Skills:</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="grid-item-left">Communication</p>
+        </div>
+        <div class="col-sm">
+          <h2 class="stars">&starf; &starf; &starf; &starf; &star;</h2>
+        </div>
+        <div class="col-sm">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="education" id="education">
+    <h1 class="title display-4">EDUCATION</h1>
+
+    <img class="westwood-logo" src="images/westwood.jpg" alt="westwood-logo">
+    <h3>Westwood High School - Austin, TX <br />Class of '22</h3>
+  </div>
+
+  <div class="hobbies" id="hobbies">
+    <h1 class="title display-4">HOBBIES</h1>
+
+    <div class="container">
+      <h2>Chess:</h2>
+      <p>Online Chess is how I spend a vast amount of my free time. I keep playing because
+        I love problem solving and puzzles. Chess is all of that but with competition!
+        I first learned how to play with my grandfather at the age of 7 but began playing
+        more often in 2020. I might not be the best player, but that doesn't deter me. I'm
+        improving every day and hope to play an over the board tournument soon. Click
+        <a href="https://www.chess.com/member/some_assembly_required">here</a> to see
+        my profile on chess.com.
+      </p>
+
+      <h2>Web Design/Development:</h2>
+      <p>The best thing about developing to me is the creation element. In my free time
+        I like to design and code websites from the ground up. It takes a lot of time,
+        but having created something makes me feel great at the end of the day. I am
+        currently doing a Udemy course on full-stack development to further hone in my
+        web devlopment skills. I am always looking for a new project to dive into because
+        I'm very passionate about learning about all things code.</p>
+
+      <h2>Gaming and Game Development:</h2>
+      <p>Video Games are one of my favorite pasttimes in life. Puzzle and racing
+        games are my all time favorite, but I also enjoy shooters and RPGs. Playing games
+        a lot in my youth inspired me to try to make games at a very young age with Unity.
+        I have also worked with Godot to create games, and while I have far less
+        experience with Godot, I prefer using it over Unity these days. While I'm no
+        master at designing or developing games, I love the process. I often find myself
+        scribbling down game ideas on paper, making a functional prototype, and eventually
+        forgetting the idea for something else. I've only released a couple of games
+        that I was not very proud of, so they soon got removed from my github page. I hope to
+        vastly improve my game development skills in the coming years. </p>
+
+      <h2>Hiking:</h2>
+      <p>I spend most of my time staring at my monitor so I often need a break. I love
+        walking the various nature trails in Austin or going out on a bike ride. It
+        clears my mind and I get moving which is always helpful. I got my love for
+        the great outdoors from my dad. My favorite place to hike is in the Rockies in
+        Colorado.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="work-experience" id="work-experience">
+    <h1 class="title display-4">WORK EXPERIENCE</h1>
+  </div>
+
+  <footer>
+    <p>
+      <b>Contact Me</b> <br />
+      <a href="mailto:gabe.inbox@protonmail.com">gabe.inbox@protonmail.com</a> | (210)305-9020
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
 </html>
