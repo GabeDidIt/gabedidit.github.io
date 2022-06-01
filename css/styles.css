@@ -36,6 +36,8 @@ footer {
 
 .face {
   border-radius: 150px;
+  display: block;
+  margin: auto;
 }
 
 .container {
@@ -100,6 +102,7 @@ color: #CCEFFE */
 @media (max-width: 576px) {
   .stars {
     font-size: 1.3rem;
+    text-align: right;
   }
   .grid-item-left {
     margin-left: 0;
@@ -107,6 +110,18 @@ color: #CCEFFE */
   }
   .grid-title-text {
     font-size: 1.5rem;
-    margin: auto;
+  }
+  .container {
+    border-radius: 0;
+    border-style: solid none solid none;/* top right bottom left */
+  }
+  /* .intro-card {
+    width: 80%;
+  } */
+}
+
+@media (max-width: 1135px) {
+  .title-name {
+    font-size: 2.2rem;
   }
 }
