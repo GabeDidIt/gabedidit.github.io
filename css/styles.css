@@ -58,6 +58,7 @@ footer {
 
 .star-key {
   line-height: 0.9;
+  text-align: left;
 }
 
 .stars {
@@ -68,6 +69,7 @@ footer {
 .grid-item-left {
   font-size: 1.3rem;
   margin-left: 10px;
+  white-space: nowrap;
 }
 
 .grid-item {
@@ -91,6 +93,10 @@ footer {
   color: white;
 }
 
+.title-name {
+  white-space: nowrap;
+}
+
 .work-experience-block {
   line-height: 1;
 }
@@ -101,16 +107,15 @@ color: #CCEFFE */
 
 @media (max-width: 576px) {
   .stars {
-    font-size: 1.3rem;
-    text-align: right;
+  margin-left: 50%;
   }
   .grid-item-left {
     margin-left: 0;
     font-size: 1rem;
   }
-  .grid-title-text {
+  /* .grid-title-text {
     font-size: 1.5rem;
-  }
+  } */
   .container {
     border-radius: 0;
     border-style: solid none solid none;/* top right bottom left */
@@ -120,7 +125,7 @@ color: #CCEFFE */
   } */
 }
 
-@media (max-width: 1135px) {
+@media (max-width: 1165px) {
   .title-name {
     font-size: 2.2rem;
   }
