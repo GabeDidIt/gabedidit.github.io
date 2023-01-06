@@ -101,6 +101,10 @@ footer {
   line-height: 1;
 }
 
+.tabc {
+  text-align: center;
+}
+
 /*
 background-color: #1C3A78;
 color: #CCEFFE */
@@ -123,10 +127,19 @@ color: #CCEFFE */
   /* .intro-card {
     width: 80%;
   } */
+
+  
 }
 
 @media (max-width: 1165px) {
   .title-name {
     font-size: 2.2rem;
+  }
+  .tabc {
+    display: none;
+  }
+
+  .netplus {
+    display: none;
   }
 }
